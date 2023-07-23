@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            height: 100vh; /* Ocupa a altura total da viewport */
+            margin: 0; /* Remove margens padrão */
+        }
+        /* O conteúdo é centralizado horizontalmente usando transform */
+        .container {
+            margin: 0 auto;
+        }
+        
+
+        .ispiner {
+            width: 80px;
+            height:80px;
+            border: 20px solid rgb(78, 77, 77);
+            border-top-color: rgb(172, 154, 0);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+         @keyframes spin {
+            to{
+                transform: rotate(360deg);
+            }
+         }
+
+    </style>
+
+
+<body>
+    <div class="ispiner">
+
+
+    </div>
+</body>
+</html>
+
+
+
+
